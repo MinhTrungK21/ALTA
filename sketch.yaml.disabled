@@ -1,0 +1,40 @@
+profiles:
+  esp32-s3:
+    fqbn: esp32:esp32:esp32s3:UploadSpeed=921600,USBMode=hwcdc,CDCOnBoot=cdc,MSCOnBoot=default,DFUOnBoot=default,UploadMode=default,CPUFreq=240,FlashMode=qio,FlashSize=4M,PartitionScheme=default,DebugLevel=none,PSRAM=disabled,LoopCore=1,EventsCore=1,EraseFlash=all,JTAGAdapter=default,ZigbeeMode=default
+    platforms:
+      - platform: esp32:esp32 (3.3.11)
+        platform_index_url: https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+    libraries:
+      - ArduinoJson (7.4.3)
+      - WebSockets (2.7.2)
+      - TOTP library (1.1.0)
+      - GFX Library for Arduino (1.6.7)
+      - TAMC_GT911 (1.0.2)
+      - Dev Device Pins (0.0.6)
+    programmer: ""
+    port: /dev/ttyACM1
+    port_config:
+      baudrate: "115200"
+      bits: "8"
+      parity: none
+      stop_bits: one
+  profile-1789358624730:
+    fqbn: esp32:esp32:esp32s3:UploadSpeed=921600,USBMode=hwcdc,CDCOnBoot=cdc,MSCOnBoot=default,DFUOnBoot=default,UploadMode=default,CPUFreq=240,FlashMode=qio,FlashSize=4M,PartitionScheme=default,DebugLevel=none,PSRAM=disabled,LoopCore=1,EventsCore=1,EraseFlash=all,JTAGAdapter=default,ZigbeeMode=default
+    platforms:
+      - platform: esp32:esp32 (3.3.11)
+        platform_index_url: https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+    libraries:
+      - ArduinoJson (7.4.3)
+      - WebSockets (2.7.2)
+      - TOTP library (1.1.0)
+      - GFX Library for Arduino (1.6.7)
+      - TAMC_GT911 (1.0.2)
+      - Dev Device Pins (0.0.6)
+    programmer: ""
+    port: /dev/ttyACM1
+    port_config:
+      baudrate: "115200"
+      bits: "8"
+      parity: none
+      stop_bits: one
+default_profile: esp32-s3

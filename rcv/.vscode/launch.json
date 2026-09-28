@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "d:/Project_Hub66s_ESPNOW/Hub66s_Dev_ESPNOW - FN connect_1/Receiver_ESPNOW/Hub66s_receiver/receiver",
+      "program": "d:/Project_Hub66s_ESPNOW/Hub66s_Dev_ESPNOW - FN connect_1/Receiver_ESPNOW/Hub66s_receiver/receiver/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

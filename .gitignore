@@ -1,0 +1,11 @@
+# Arduino CLI/IDE build output (regenerated on every compile)
+build/
+rcv/build/
+receiver/build/
+
+# Python virtualenv + bytecode cache (linux_client)
+linux_client/.venv/
+**/__pycache__/
+*.pyc
+
+# Per-user local app state (linux_client persists these under ~/.config, not here)

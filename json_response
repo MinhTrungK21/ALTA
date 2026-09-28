@@ -1,0 +1,13 @@
+{
+  "id_src": "LIC_ABCDE",
+  "id_des": 1001,
+  "mac_src": "8C:4F:00:16:59:F8",
+  "mac_des": "AA:BB:CC:DD:EE:FF",
+  "opcode": 131,
+  "data": {
+    "lid": 123,
+    "remain": 86400
+  },
+  "time": 3775,
+  "auth": "d810d7f41c4adb27be326353097c800b"
+}
